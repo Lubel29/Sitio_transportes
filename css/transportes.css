@@ -13,43 +13,31 @@ header {
     padding: 15px 0;
     justify-content: space-between;
     align-items: center;
-    min-height: 70px;
-
+    display: flex;
+   
 }
 
 header h1 {
     color: rgb(255, 251, 251);
-    font-size: 30px;
+    font-size: 35px;
     /* font-weight: 100; */
     font-style: italic;
     /* display: flex; */
     /* position: relative; */
     /* bottom: 35px;
     margin-left: 10px; */
-
-
+    
 
 }
 
 .logo {
     display: flex;
     align-items: center;
-    margin-right: 30px;
+    margin-right: 10px;
 }
 
-.logo2 {
-    display: flex;
-    align-items: center;
-    margin-left: 30px;
-
-}
-
-.logo2 img{
-    margin-left: 30px;
-    float: right;
-}
 .logo img {
-    margin-right: 30px;
+    margin-right: 10px;
     float: left;
 
 }
@@ -58,7 +46,7 @@ header h1 {
 nav {
     background-color: rgba(127, 197, 191, 0.322);
     float: right;
-
+    
 }
 
 nav ul {
@@ -66,7 +54,6 @@ nav ul {
     margin: 0%;
     padding: 50px;
     display: flex;
-
 }
 
 nav ul li {
@@ -74,6 +61,7 @@ nav ul li {
     margin-left: 75px;
     padding: 25px 0;
     float: left;
+
 }
 
 
@@ -82,11 +70,16 @@ nav ul li a {
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;
+   
 
 }
 
 nav ul li a:hover {
     background-color: rgb(252, 243, 232);
+}
+
+nav ul li a.activo{
+    background-color: rgb(252, 243, 232); 
 }
 
 footer{
@@ -100,7 +93,7 @@ footer{
 .iconosRedes{
     display: flex;
     justify-content: center;
-    background-color:rgb(255, 255, 255); ;
+    background-color:rgb(219, 219, 219) ;
 }
 
 .iconosRedes a{
@@ -119,12 +112,29 @@ footer{
 }
 
 .iconosRedes a:hover{
-    background-color:rgb(219, 219, 219);
+    background-color:rgb(255, 249, 249);
     transition: 0.5s;
 }
 
+.holder{
+    max-width: 1500px;
+    margin:0 auto;
+}
 
+/*Inicio seccion home*/
 
+.homeimg img{
+    border-radius: 10%;
+    padding-right: 30px;
+}
 
+main.holder{
+    justify-content: center;
+    display: flex;
+}
 
-
+h2{
+    color: black;
+    font-style: italic;
+    font-weight:bold
+}
