@@ -14,7 +14,7 @@ header {
     justify-content: space-between;
     align-items: center;
     display: flex;
-   
+
 }
 
 header h1 {
@@ -26,7 +26,7 @@ header h1 {
     /* position: relative; */
     /* bottom: 35px;
     margin-left: 10px; */
-    
+
 
 }
 
@@ -46,7 +46,7 @@ header h1 {
 nav {
     background-color: rgba(127, 197, 191, 0.322);
     float: right;
-    
+
 }
 
 nav ul {
@@ -70,7 +70,7 @@ nav ul li a {
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;
-   
+
 
 }
 
@@ -78,11 +78,11 @@ nav ul li a:hover {
     background-color: rgb(252, 243, 232);
 }
 
-nav ul li a.activo{
-    background-color: rgb(252, 243, 232); 
+nav ul li a.activo {
+    background-color: rgb(252, 243, 232);
 }
 
-footer{
+footer {
     background-color: rgb(219, 219, 219);
     text-align: center;
     margin-top: auto;
@@ -90,14 +90,14 @@ footer{
     font-family: 'Open Sans', sans-serif;
 }
 
-.iconosRedes{
+.iconosRedes {
     display: flex;
     justify-content: center;
-    background-color:rgb(219, 219, 219) ;
+    background-color: rgb(219, 219, 219);
 }
 
-.iconosRedes a{
-    text-decoration:none;
+.iconosRedes a {
+    text-decoration: none;
     padding: 10px;
     margin: 10px;
     border-radius: 50%;
@@ -105,36 +105,135 @@ footer{
     font-weight: bold;
 }
 
-.iconosRedes a i{
+.iconosRedes a i {
     font-size: 2em;
     color: black;
     opacity: 0.9;
 }
 
-.iconosRedes a:hover{
-    background-color:rgb(255, 249, 249);
+.iconosRedes a:hover {
+    background-color: rgb(255, 249, 249);
     transition: 0.5s;
 }
 
-.holder{
+.holder {
     max-width: 1500px;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
 /*Inicio seccion home*/
 
-.homeimg img{
+.homeimg img {
     border-radius: 10%;
     padding-right: 30px;
+    margin-top: 5%;
 }
 
-main.holder{
+main.holder {
     justify-content: center;
     display: flex;
 }
 
-h2{
+h2 {
     color: black;
     font-style: italic;
-    font-weight:bold
+
+}
+
+.Bienvenidos {
+    /* width: 75%; */
+    padding-right: 10px;
+    box-sizing: border-box;
+
+}
+
+.columnas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Bienvenidos p {
+    font-size: 20px;
+    align-items: center;
+}
+
+.Testimonios {
+    width: 30%;
+    background-color: rgb(243, 236, 236);
+    margin-bottom: 20%;
+    float: right;
+
+
+}
+
+.Testimonio {
+    background-color: rgb(243, 236, 236);
+    padding: 20px;
+
+}
+
+.Testimonio .cita {
+    /* font-weight: bold; */
+    font-size: 15px;
+    font-style: italic;
+    display: block;
+    justify-content: center;
+}
+
+.Testimonio .autor {
+    font-size: 10px;
+    text-align: center;
+    display: block;
+    margin: 12px 0;
+    justify-content: center;
+}
+
+h3 {
+    color: #7fc5bf;
+}
+
+/* fin de Home*/
+/*inicio de nosotros*/
+
+.Objetivos {
+    margin-right: 5%;
+    text-align: center;
+}
+
+.Objetivos p {
+    font-size: 16px;
+    text-align: center;
+}
+
+.personas {
+    display: inline-block;
+    justify-content: space-between;
+    margin-bottom: 5%;
+
+}
+
+.persona p {
+    font-size: 18px;
+}
+
+.persona {
+    border: 1px solid white;
+    border-radius: 19px 19px 19px 19px;
+    -webkit-border-radius: 19px 19px 19px 19px;
+    -moz-border-radius: 19px 19px 19px 19px;
+    background: #e3eeed;
+    padding: 5px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.staff h2 {
+    text-align: center;
+}
+
+.persona img {
+    border-radius: 50%;
+    box-shadow: 11px 10px 32px 2px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 11px 10px 32px 2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 11px 10px 32px 2px rgba(0, 0, 0, 0.75);
 }
